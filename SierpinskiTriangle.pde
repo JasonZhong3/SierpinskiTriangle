@@ -16,6 +16,8 @@ public void draw() {
       y -= 10;
     if (key == 's')
       y += 10;
+    if (key == 'r')
+      len2 = 300;
   }
   if (mousePressed == true)
      len2 += 10;
